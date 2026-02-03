@@ -1,2 +1,4 @@
 node_modules
 detect
+__pycache__/
+*.pyc
