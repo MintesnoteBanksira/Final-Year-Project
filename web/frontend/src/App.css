@@ -1,0 +1,99 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-container, .image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-container form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.image-container {
+  background-color: #004d40;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-container img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.promo p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group input, .form-group select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+p {
+  margin: 10px 0;
+}
+
+p a {
+  color: #0072ff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
